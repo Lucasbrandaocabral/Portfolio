@@ -95,3 +95,13 @@ document.addEventListener("DOMContentLoaded", function () {
     showSlide(currentIndex);
   }
 });
+
+// ========== MENU MOBILE SANDUÍCHE ==========
+const menuToggle = document.querySelector(".menu-toggle");
+const navMenu = document.querySelector(".nav-sobre-min");
+
+if (menuToggle && navMenu) {
+  menuToggle.addEventListener("click", () => {
+    navMenu.classList.toggle("active");
+  });
+}
