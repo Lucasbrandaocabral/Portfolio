@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     { trigger: ".home-rolar-para-home", target: ".home" },
     { trigger: ".home-rolar-para-sobre-mim", target: ".sobre-mim" },
     { trigger: ".home-rolar-para-skills", target: ".skills" },
-    { trigger: ".home-rolar-para-carreira", target: ".carreira-container" },
+    { trigger: ".home-rolar-para-carreira", target: ".Carreira" },
     { trigger: ".home-rolar-para-projetos", target: ".titolo-portfolio" },
     { trigger: ".home-rolar-para-contato", target: ".contato" },
     { trigger: ".footer-scroll-sobre-mim", target: ".sobre-mim" },
@@ -14,11 +14,17 @@ document.addEventListener("DOMContentLoaded", function () {
   ];
 
   scrollMap.forEach(({ trigger, target }) => {
-    document.querySelector(trigger)?.addEventListener("click", function (e) {
-      e.preventDefault();
-      document.querySelector(target)?.scrollIntoView({ behavior: "smooth", block: "start" });
-    });
+  document.querySelector(trigger)?.addEventListener("click", function (e) {
+    e.preventDefault();
+    const element = document.querySelector(target);
+    if (element) {
+      const offset = target === ".titolo-carreira" ? -40 : -80;
+      const top = element.getBoundingClientRect().top + window.pageYOffset + offset;
+      window.scrollTo({ top, behavior: "smooth" });
+    }
   });
+});
+
 
   // ========== ACCORDION ==========
   document.querySelectorAll(".accordion-header").forEach((button) => {

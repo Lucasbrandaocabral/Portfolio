@@ -23,7 +23,7 @@ body, ul, li, a, p, span {
 }
 
 body {
-    padding-top: 80px; /* Ajuste esse valor conforme a altura da sua navbar */
+    padding-top: 80px;
 }
 
 .header-nav {
@@ -37,7 +37,7 @@ body {
     padding: 20px;
     align-items: center;
     background-color: #090E16;
-    z-index: 1000; /* Para garantir que a navbar fique acima dos outros elementos */
+    z-index: 1000; 
     transition: background 0.3s ease-in-out;
 }
 
@@ -159,14 +159,14 @@ body {
 
 .home-cv a i::before,
 .home-cv a .baixar-cv, .VC {
-    color: var(--cor2); /* Cor inicial dos ícones e do texto */
+    color: var(--cor2);
     transition: color 0.5s ease-in-out;
 }
 
 .home-cv a:hover,
 .home-cv a:hover i::before,
 .home-cv a:hover .baixar-cv {
-    color: #ffffff !important; /* Muda tudo para branco ao mesmo tempo */
+    color: #ffffff !important;
 }
 
 .VC {
@@ -194,21 +194,21 @@ body {
     margin-left: 130px;
     display: flex;
     align-items: center;
-    gap: 8px; /* Ajusta o espaçamento entre os elementos */
-    color: var(--cor2); /* Cor padrão */
+    gap: 8px;
+    color: var(--cor2);
     transition: color 0.5s;
 }
 
 .home-rolar a i::before,
 .home-rolar a .texto-rolar {
-    color: var(--cor2); /* Cor inicial dos ícones e do texto */
+    color: var(--cor2);
     transition: color 0.5s ease-in-out;
 }
 
 .home-rolar a:hover,
 .home-rolar a:hover i::before,
 .home-rolar a:hover .texto-rolar {
-    color: #ffffff !important; /* Muda tudo para branco ao mesmo tempo */
+    color: #ffffff !important;
 }
 
 .texto-rolar {
@@ -327,13 +327,13 @@ body {
     cursor: pointer;
 }
 .accordion-header i::before {
-    font-size: 40px; /* Tamanho atual */
-    color: var(--cor2); /* Cor roxa */
-    transition: transform 0.3s ease; /* Suaviza a animação */
+    font-size: 40px;
+    color: var(--cor2);
+    transition: transform 0.3s ease;
 }
 
 .accordion-header.active i::before {
-    transform: rotate(180deg); /* Gira a seta para cima */
+    transform: rotate(180deg);
 }
 
 .accordion-header span {
@@ -359,8 +359,8 @@ body {
 
 .accordion-body.active {
     opacity: 1;
-    height: auto; /* Define a altura automaticamente */
-    padding: 10px 0px; /* Adiciona um espaçamento interno */
+    height: auto;
+    padding: 10px 0px;
 }
 
 .arrow {
@@ -595,7 +595,7 @@ h2 {
 
 .card img {
     max-width: 40%;
-    height: auto; /* mantém a proporção */
+    height: auto;
     object-fit: cover; 
 }
 
