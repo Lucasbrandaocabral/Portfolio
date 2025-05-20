@@ -18,12 +18,3 @@ Gostei especialmente dos **botões**, **esquema de cores** e **layout limpo**, e
 ## 💬 Considerações Finais
 
 Este projeto foi um marco no meu aprendizado, onde além de treinar design, também comecei a entender como estruturar e publicar algo por conta própria. Ainda há muito o que evoluir, mas fico feliz em compartilhar essa primeira versão.
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
-# Portf-lio
->>>>>>> d3d9286 (Atualizando Portfólio)
->>>>>>> 9ecc34b (Primeiro commit do Portfólio)
-=======
->>>>>>> 759d1112848a78ccc8ffba590befdd14a5057c6e
